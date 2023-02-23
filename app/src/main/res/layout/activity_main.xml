@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.sk.steps_view.StepsView
+            android:id="@+id/steps_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="50dp"
+            app:step_name_to_no_gravity="BOTTOM" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="上一步" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="下一步" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

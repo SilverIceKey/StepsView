@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepsView">
+        <attr name="step_padding" format="dimension" />
+        <attr name="step_background_done" format="integer" />
+        <attr name="step_text_color_done" format="color" />
+        <attr name="step_text_size_done" format="dimension" />
+        <attr name="step_background_undo" format="integer" />
+        <attr name="step_text_color_undo" format="color" />
+        <attr name="step_text_size_undo" format="dimension" />
+        <attr name="step_background_doing" format="integer" />
+        <attr name="step_text_color_doing" format="color" />
+        <attr name="step_text_size_doing" format="dimension" />
+        <attr name="step_connect_line_color" format="color" />
+        <attr name="step_connect_line_width" format="color" />
+        <attr name="step_connect_line_height" format="color" />
+        <attr name="step_name_text_size" format="dimension" />
+        <attr name="step_name_text_color" format="color" />
+        <attr name="step_and_connect_line_padding" format="dimension" />
+        <attr name="step_and_name_padding" format="dimension" />
+        <attr name="step_name_to_no_gravity" format="enum">
+            <enum name="LEFT" value="0"/>
+            <enum name="TOP" value="1"/>
+            <enum name="RIGHT" value="2"/>
+            <enum name="BOTTOM" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
